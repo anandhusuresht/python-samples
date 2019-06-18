@@ -1,11 +1,15 @@
-dat={"name":"Anandhu","number":"10"} #dict
-lis=["Anandhu","10","c"] #list
+dat={"name":"Anandhu","number":"10"}            #dict
+lis=["Anandhu","10","c"]                    #list
 li=[12,23,4,5,66,23]
+
 #if statement with nested if
+
 if "Anandhu" in lis:
     if lis[1]=="10":
         if lis[2]=="c":
             print("Anandhu10")
+elif len(lis)==3:               #len(list) gives the length of a list
+    pass                    #pass fn to do code later
 else:
     print("No name")
 sum=0
@@ -27,5 +31,5 @@ while a<29:
     if a==b:
         print("a is b at",a)
         break
-else:
+else:                              #executes if while exits for false condition not for break
     print("not possible")
